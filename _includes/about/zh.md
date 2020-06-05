@@ -1,0 +1,1 @@
+Click the language button to switch language.

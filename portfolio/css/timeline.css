@@ -181,6 +181,15 @@ body, html {
 	background-size: 22px;
 }
 
+.python:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/python.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
 /******* Hux Branch *****/
 
 /* navbar - dark mode */
@@ -220,9 +229,9 @@ header p{
 	font-weight: 300;
 	margin: 1.7em;
 }
-header img{
+/* header img{
 	width: 175px;
-}
+} */
 
 .cbp_tmlabel .hux_ul{
 	border:none;
