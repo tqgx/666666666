@@ -13,11 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-# weibo_username:     huxpro
-# zhihu_username:     huxpro
 github_username:    imdonnie
-# twitter_username:   huxpro
-# facebook_username:  huxpro
 linkedin_username:  ziheng-dong-473424173
 nu_email: zhdong@u.northwestern.edu
 
