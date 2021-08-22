@@ -1,6 +1,6 @@
 # Site settings
 title: nkq's Blog
-SEOTitle: nkq的博客 | nkq's Blog
+SEOTitle: 宁的博客 | nkq's Blog
 header-img: img/home-bg.jpg
 email: nkq_1998@outlook.com
 description: "你好！我的朋友"
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     宁宁宁宁宁K_
-zhihu_username:     嘿嘿你真是个人才
+# weibo_username:     宁宁宁宁宁K_
+# zhihu_username:     嘿嘿你真是个人才
 github_username:    ningkaiqiang
 twitter_username:   ningkaiqiang
-#facebook_username:  huxpro
+#facebook_username:  ningkaiqiang
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -71,7 +71,7 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'G-X2LYQ0LHSL'            # Format: UA-xxxxxx-xx
 ga_domain: auto
 
 
@@ -101,8 +101,8 @@ page-mathjax: false
 
 
 # Friends
-friends: [
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-]
+# friends: [
+#     #     title: "Su",
+#     #     href: "http://su.gallery/"
+#     # },{
+# ]
