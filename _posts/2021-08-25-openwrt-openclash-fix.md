@@ -5,10 +5,9 @@ subtitle: "Openwrt issue, Fixed"
 date: 2020-12-28
 author: "NKQ"
 header-img: "img/home-bg-art.jpg"
-tags: [
-    - Fix World
-    - Openwrt
-]
+tags:
+  - Fix World
+  - Openwrt
 ---
 
 
