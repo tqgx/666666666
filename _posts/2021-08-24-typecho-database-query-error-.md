@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Typecho出现Database Query Error解决方法"
-subtitle: "typecho, 建站, Blog"
+subtitle: "typecho建站, Blog"
 date: 2020-10-06
 author: "NKQ"
 header-img: "img/home-bg-art.jpg"
-tags: [
-]
+tags: []
 ---
 
 

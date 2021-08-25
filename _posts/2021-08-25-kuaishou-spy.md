@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "快手视频爬虫实现"
-subtitle: "Python,  爬虫"
+subtitle: "Python, 爬虫"
 date: 2020-12-14
 author: "NKQ"
 header-img: "img/home-bg-art.jpg"
