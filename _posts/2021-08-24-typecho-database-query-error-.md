@@ -6,8 +6,6 @@ date: 2020-10-06
 author: "NKQ"
 header-img: "img/home-bg-art.jpg"
 tags: [
-    - Blog
-    - Fix World
 ]
 ---
 
