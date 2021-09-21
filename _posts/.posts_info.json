@@ -1,0 +1,476 @@
+{
+  "toc_hash_info" : {
+
+  },
+  "words_info" : {
+    "2021-08-25-kuaishou-spy.md" : 1251,
+    "2021-08-29-jvm_hotspot.md" : 3654,
+    "2021-08-27-apple-event-2020.md" : 1363,
+    "2021-08-27-ajax-with-xhr.md" : 992,
+    "2021-08-25-openwrt-openclash-fix.md" : 308,
+    "2021-08-25-spring-auto-congiguration.md" : 3289,
+    "2021-08-24-yoga-710.md" : 659,
+    "2021-08-31-bigsur-on-i57200u.md" : 1387,
+    "2021-08-24-typecho-database-query-error-.md" : 200
+  },
+  "filename_path_info" : {
+    "2021-08-25-spring-auto-congiguration" : "2021-08-25-spring-auto-congiguration.md",
+    "2021-08-25-openwrt-openclash-fix" : "2021-08-25-openwrt-openclash-fix.md",
+    "2021-08-31-bigsur-on-i57200u" : "2021-08-31-bigsur-on-i57200u.md",
+    "2021-08-25-kuaishou-spy" : "2021-08-25-kuaishou-spy.md",
+    "2021-08-27-apple-event-2020" : "2021-08-27-apple-event-2020.md",
+    "2021-08-27-ajax-with-xhr" : "2021-08-27-ajax-with-xhr.md",
+    "2021-08-24-typecho-database-query-error-" : "2021-08-24-typecho-database-query-error-.md",
+    "2021-08-29-jvm_hotspot" : "2021-08-29-jvm_hotspot.md",
+    "2021-08-24-yoga-710" : "2021-08-24-yoga-710.md"
+  },
+  "files_mtime_info" : {
+    "2021-08-31-bigsur-on-i57200u.md" : 1630412981,
+    "2021-08-25-kuaishou-spy.md" : 1629905328,
+    "2021-08-25-spring-auto-congiguration.md" : 1629905697,
+    "2021-08-27-apple-event-2020.md" : 1630067588,
+    "2021-08-25-openwrt-openclash-fix.md" : 1629904526,
+    "2021-08-29-jvm_hotspot.md" : 1630247072,
+    "2021-08-27-ajax-with-xhr.md" : 1630067564,
+    "2021-08-24-typecho-database-query-error-.md" : 1629904528,
+    "2021-08-24-yoga-710.md" : 1629904527
+  },
+  "toc_info" : {
+    "2021-08-27-ajax-with-xhr.md" : [
+      "0,## AJAX和XMLHttpReques",
+      "1,## XMLHttpReques LV2",
+      "2,#### 功能更新",
+      "3,#### 支持范围",
+      "4,#### 设置请求头",
+      "5,#### 获取响应头",
+      "6,#### 传输的状态",
+      "7,#### 传输的数据类型",
+      "8,#### 获取返回的数据",
+      "9,#### 设置请求的超时时间",
+      "10,#### 获取上传\/下载的进度",
+      "11,#### 请求时发送的数据类型",
+      "12,#### 请求事件",
+      "13,#### 执行回调函数时判断条件",
+      "14,## 参考"
+    ],
+    "2021-08-25-openwrt-openclash-fix.md" : [
+
+    ],
+    "2021-08-25-spring-auto-congiguration.md" : [
+      "0,## 查看依赖项目",
+      "1,### 父项目",
+      "2,### 父项目的父项目",
+      "3,## Spring Boot “Boot”",
+      "4,### @SpringBootConfiguration",
+      "5,### @EnableAutoConfiguration",
+      "6,#### @AutoConfigurationPackage",
+      "7,#### @Import(AutoConfigurationImportSelector.class)",
+      "8,## 配置文件",
+      "9,### @EnableConfigurationProperties(XXX.class)",
+      "10,### @ConditionalOnXXX()",
+      "11,### debug=true",
+      "12,## 总结",
+      "13,## 参考资料"
+    ],
+    "2021-08-29-jvm_hotspot.md" : [
+      "0,## JVM的基本结构",
+      "1,## 沙箱机制（类的装载阶段）",
+      "2,### 沙箱机制描述",
+      "3,### 字节码校验器",
+      "4,### 类加载器和双亲委派机制",
+      "5,#### 自定义的类加载器",
+      "6,#### 存取控制器",
+      "7,#### 安全管理器",
+      "8,#### 安全软件包",
+      "9,## Native关键字和方法区",
+      "10,### Native关键字",
+      "11,### 方法区",
+      "12,## PC寄存器",
+      "13,## 栈内存",
+      "14,### 栈帧",
+      "15,## 堆内存",
+      "16,### 新生代（伊甸园区）",
+      "17,#### MinorGC",
+      "18,### 老年代",
+      "19,#### MajorGC",
+      "20,### 永久代（元空间）",
+      "21,#### 永久代和方法区的关系",
+      "22,### 出现OOM错误后该怎么调试",
+      "23,### GC算法",
+      "24,#### 引用计数法(JVM未采用)",
+      "25,#### MinorGC(复制算法)",
+      "26,#### MajorGC(标记清除算法)",
+      "27,##### MajorGC的优化，标记压缩算法",
+      "28,#### GC算法总结",
+      "29,## 参考："
+    ],
+    "2021-08-24-yoga-710.md" : [
+      "0,#### 内存的选择",
+      "1,#### 开始动手",
+      "2,#### 升级后的体验"
+    ],
+    "2021-08-24-typecho-database-query-error-.md" : [
+
+    ],
+    "2021-08-25-kuaishou-spy.md" : [
+      "0,## 爬虫实现",
+      "1,### 分析网页",
+      "2,### 循环获取视频信息",
+      "3,## 细节问题"
+    ],
+    "2021-08-31-bigsur-on-i57200u.md" : [
+      "0,## 起步准备",
+      "1,### 硬盘",
+      "2,### 分区",
+      "3,## Windows",
+      "4,### 安装",
+      "5,### 设置Big sur镜像",
+      "6,## 安装Big sur",
+      "7,## 完成引导的建立",
+      "8,## 我的其他设置"
+    ],
+    "2021-08-27-apple-event-2020.md" : [
+      "0,## 📱发布的产品",
+      "1,## 🙋让我心动的机器",
+      "2,## 🤔我对几个产品的看法与价格预测",
+      "3,#### 🔊 HomePod mini",
+      "4,#### 📱 iPhone",
+      "5,## 🔗 其他东西",
+      "6,#### 💻 搭载A系列芯片的MacBook",
+      "7,#### 🎧 AirPods Studio",
+      "8,#### 🧲 MagSafe"
+    ]
+  },
+  "tags_paths" : {
+    "2021-08-27-ajax-with-xhr.md" : [
+
+    ],
+    "2021-08-25-spring-auto-congiguration.md" : [
+
+    ],
+    "2021-08-24-yoga-710.md" : [
+
+    ],
+    "2021-08-24-typecho-database-query-error-.md" : [
+
+    ],
+    "2021-08-27-apple-event-2020.md" : [
+
+    ],
+    "2021-08-29-jvm_hotspot.md" : [
+
+    ],
+    "2021-08-31-bigsur-on-i57200u.md" : [
+
+    ],
+    "2021-08-25-openwrt-openclash-fix.md" : [
+
+    ],
+    "2021-08-25-kuaishou-spy.md" : [
+
+    ]
+  },
+  "documents_meta_info" : {
+    "2021-08-24-yoga-710.md" : {
+      "tags" : "",
+      "date" : "2020-09-30",
+      "subtitle" : "折腾的生活, 硬件",
+      "title" : "黑苹果YOGA 710内存升级小记",
+      "layout" : "post",
+      "raw_metadata_str" : "layout: post\ntitle: \"黑苹果YOGA 710内存升级小记\"\nsubtitle: \"折腾的生活, 硬件\"\ndate: 2020-09-30\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - 硬件\n  - 折腾",
+      "author" : "NKQ"
+    },
+    "2021-08-27-ajax-with-xhr.md" : {
+      "raw_metadata_str" : "layout: post\ntitle: \"XMLHttpRequest与Ajax\"\nsubtitle: \"JS, Web\"\ndate: 2020-11-22\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - Web",
+      "tags" : "",
+      "author" : "NKQ",
+      "title" : "XMLHttpRequest与Ajax",
+      "layout" : "post",
+      "subtitle" : "JS, Web",
+      "date" : "2020-11-22"
+    },
+    "2021-08-31-bigsur-on-i57200u.md" : {
+      "title" : "从零开始的黑苹果 Big sur安装",
+      "tags" : "",
+      "subtitle" : "How to install macOS Big Sur on PC",
+      "layout" : "post",
+      "date" : "2021-01-15",
+      "raw_metadata_str" : "layout: post\ntitle: \"从零开始的黑苹果 Big sur安装\"\nsubtitle: \"How to install macOS Big Sur on PC\"\ndate: 2021-01-15\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - Hackintosh",
+      "author" : "NKQ"
+    },
+    "2021-08-29-jvm_hotspot.md" : {
+      "layout" : "post",
+      "raw_metadata_str" : "layout: post\ntitle: \"了解JVM（HotSpot）\"\nsubtitle: \"Java\"\ndate: 2021-02-08\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - Java",
+      "title" : "了解JVM（HotSpot）",
+      "author" : "NKQ",
+      "date" : "2021-02-08",
+      "tags" : "",
+      "subtitle" : "Java"
+    },
+    "2021-08-25-spring-auto-congiguration.md" : {
+      "author" : "NKQ",
+      "tags" : "",
+      "subtitle" : "java, 编码",
+      "date" : "2021-02-27",
+      "raw_metadata_str" : "layout: post\ntitle: \"Spring Boot自动装配源码分析\"\nsubtitle: \"java, 编码\"\ndate: 2021-02-27\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - Java",
+      "layout" : "post",
+      "title" : "Spring Boot自动装配源码分析"
+    },
+    "2021-08-25-kuaishou-spy.md" : {
+      "raw_metadata_str" : "layout: post\ntitle: \"快手视频爬虫实现\"\nsubtitle: \"Python, 爬虫\"\ndate: 2020-12-14\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - Spy\n  - Python",
+      "layout" : "post",
+      "title" : "快手视频爬虫实现",
+      "author" : "NKQ",
+      "tags" : "",
+      "subtitle" : "Python, 爬虫",
+      "date" : "2020-12-14"
+    },
+    "2021-08-24-typecho-database-query-error-.md" : {
+      "layout" : "post",
+      "tags" : "",
+      "raw_metadata_str" : "layout: post\ntitle: \"Typecho出现Database Query Error解决方法\"\nsubtitle: \"typecho建站, Blog\"\ndate: 2020-10-06\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - Blog\n  - Fix World",
+      "subtitle" : "typecho建站, Blog",
+      "author" : "NKQ",
+      "title" : "Typecho出现Database Query Error解决方法",
+      "date" : "2020-10-06"
+    },
+    "2021-08-25-openwrt-openclash-fix.md" : {
+      "subtitle" : "Openwrt issue, Fixed",
+      "layout" : "post",
+      "tags" : "",
+      "raw_metadata_str" : "layout: post\ntitle: \"OpenClash web Ui点击更新后解除安装解决\"\nsubtitle: \"Openwrt issue, Fixed\"\ndate: 2020-12-28\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - Fix World\n  - Openwrt",
+      "author" : "NKQ",
+      "title" : "OpenClash web Ui点击更新后解除安装解决",
+      "date" : "2020-12-28"
+    },
+    "2021-08-27-apple-event-2020.md" : {
+      "layout" : "post",
+      "date" : "2020-10-15",
+      "title" : "🍎 Apple 发布会观感",
+      "tags" : "",
+      "raw_metadata_str" : "layout: post\ntitle: \"🍎 Apple 发布会观感\"\nsubtitle: \"Apple, 胡扯\"\ndate: 2020-10-15\nauthor: \"NKQ\"\nheader-img: \"img\/home-bg-art.jpg\"\ntags:\n  - 胡扯\n  - Apple",
+      "subtitle" : "Apple, 胡扯",
+      "author" : "NKQ"
+    }
+  },
+  "name_path_info" : {
+    "typecho出现database query error解决方法" : "2021-08-24-typecho-database-query-error-.md",
+    "xmlhttprequest与ajax" : "2021-08-27-ajax-with-xhr.md",
+    "快手视频爬虫实现" : "2021-08-25-kuaishou-spy.md",
+    "🍎 apple 发布会观感" : "2021-08-27-apple-event-2020.md",
+    "从零开始的黑苹果 big sur安装" : "2021-08-31-bigsur-on-i57200u.md",
+    "了解jvm（hotspot）" : "2021-08-29-jvm_hotspot.md",
+    "黑苹果yoga 710内存升级小记" : "2021-08-24-yoga-710.md",
+    "openclash web ui点击更新后解除安装解决" : "2021-08-25-openwrt-openclash-fix.md",
+    "spring boot自动装配源码分析" : "2021-08-25-spring-auto-congiguration.md"
+  },
+  "links_paths" : {
+
+  },
+  "path_name_info" : {
+    "2021-08-24-yoga-710.md" : "黑苹果YOGA 710内存升级小记",
+    "2021-08-25-openwrt-openclash-fix.md" : "OpenClash web Ui点击更新后解除安装解决",
+    "2021-08-25-kuaishou-spy.md" : "快手视频爬虫实现",
+    "2021-08-27-ajax-with-xhr.md" : "XMLHttpRequest与Ajax",
+    "2021-08-31-bigsur-on-i57200u.md" : "从零开始的黑苹果 Big sur安装",
+    "2021-08-29-jvm_hotspot.md" : "了解JVM（HotSpot）",
+    "2021-08-27-apple-event-2020.md" : "🍎 Apple 发布会观感",
+    "2021-08-24-typecho-database-query-error-.md" : "Typecho出现Database Query Error解决方法",
+    "2021-08-25-spring-auto-congiguration.md" : "Spring Boot自动装配源码分析"
+  },
+  "tags_tags" : {
+
+  },
+  "documents_info" : {
+    "2021-08-31-bigsur-on-i57200u.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "点这里",
+          "url" : "https:\/\/www.microsoft.com\/zh-cn\/software-download\/windows10ISO"
+        },
+        {
+          "name" : "点这里",
+          "url" : "http:\/\/www.wepe.com.cn\/download.html"
+        },
+        {
+          "url" : "https:\/\/blog.daliansky.net\/",
+          "name" : "点这里"
+        },
+        {
+          "name" : "点这里",
+          "url" : "https:\/\/www.balena.io\/etcher\/"
+        },
+        {
+          "url" : "https:\/\/github.com\/daliansky\/Hackintosh",
+          "name" : "点这里"
+        }
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "2021-08-25-openwrt-openclash-fix.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "2021-08-29-jvm_hotspot.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "JVM系列三:JVM参数设置、分析",
+          "url" : "https:\/\/www.cnblogs.com\/redcreen\/archive\/2011\/05\/04\/2037057.html"
+        },
+        {
+          "name" : "JVM的新生代、老年代、MinorGC、MajorGC",
+          "url" : "https:\/\/www.cnblogs.com\/ygj0930\/p\/6522828.html"
+        },
+        {
+          "name" : "Java8内存模型—永久代(PermGen)和元空间(Metaspace)",
+          "url" : "https:\/\/www.cnblogs.com\/paddix\/p\/5309550.html"
+        },
+        {
+          "url" : "https:\/\/www.cnblogs.com\/iwehdio\/p\/13854708.html",
+          "name" : "JVM（十）——类的加载与加载器"
+        },
+        {
+          "name" : "关于Java类加载双亲委派机制的思考（附一道面试题）",
+          "url" : "https:\/\/www.cnblogs.com\/lanxuezaipiao\/p\/4138511.html"
+        },
+        {
+          "url" : "https:\/\/www.zhihu.com\/question\/49044988\/answer\/113961406",
+          "name" : "方法区的Class信息,又称为永久代,是否属于Java堆？"
+        }
+      ],
+      "images" : [
+
+      ]
+    },
+    "2021-08-24-typecho-database-query-error-.md" : {
+      "links" : [
+        {
+          "name" : "MySQL中的UTF-8",
+          "url" : "https:\/\/my.oschina.net\/xsh1208\/blog\/1052781"
+        }
+      ],
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "2021-08-27-ajax-with-xhr.md" : {
+      "links" : [
+        {
+          "name" : "ruoyiqing的你真的会使用XMLHttpRequest吗？",
+          "url" : "https:\/\/segmentfault.com\/a\/1190000004322487"
+        },
+        {
+          "url" : "http:\/\/www.ruanyifeng.com\/blog\/2012\/09\/xmlhttprequest_level_2.html",
+          "name" : "阮一峰XMLHttpRequest Level 2 使用指南"
+        },
+        {
+          "name" : "网站",
+          "url" : "https:\/\/caniuse.com\/?search=XMLHttpRequest"
+        }
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "2021-08-27-apple-event-2020.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "2021-08-25-kuaishou-spy.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "2021-08-24-yoga-710.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "2021-08-25-spring-auto-congiguration.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "url" : "https:\/\/docs.spring.io\/spring-boot\/docs\/2.4.3\/reference\/html\/using-spring-boot.html#using-boot-starter",
+          "name" : "这里"
+        },
+        {
+          "name" : "Spring Boot",
+          "url" : "https:\/\/spring.io\/projects\/spring-boot#overviewz"
+        },
+        {
+          "name" : "SpringFramework5.0 @Indexed注解 简单解析",
+          "url" : "https:\/\/juejin.cn\/post\/6844904014509768712"
+        },
+        {
+          "url" : "https:\/\/www.kancloud.cn\/fold\/spring_boot\/1607483",
+          "name" : "@Conditional派生注解（Spring注解版原生的@Conditional作用"
+        }
+      ],
+      "attachments" : [
+
+      ]
+    }
+  },
+  "links_backward_paths" : {
+
+  },
+  "todo_list" : {
+
+  },
+  "relative_folders" : [
+
+  ],
+  "relative_paths" : [
+    "2021-08-27-ajax-with-xhr.md",
+    "2021-08-31-bigsur-on-i57200u.md",
+    "2021-08-25-kuaishou-spy.md",
+    "2021-08-25-spring-auto-congiguration.md",
+    "2021-08-24-yoga-710.md",
+    "2021-08-25-openwrt-openclash-fix.md",
+    "2021-08-29-jvm_hotspot.md",
+    "2021-08-24-typecho-database-query-error-.md",
+    "2021-08-27-apple-event-2020.md"
+  ]
+}
