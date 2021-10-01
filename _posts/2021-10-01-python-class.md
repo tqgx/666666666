@@ -2,7 +2,7 @@
 layout: post
 title: "Python中的类与对象"
 subtitle: "Python Class"
-date: 2021-10-01
+date: 2020-10-25
 author: "NKQ"
 header-img: "img/home-bg-art.jpg"
 tags:
