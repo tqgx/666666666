@@ -15,7 +15,7 @@ tags:
 
 APP是运行与系统之中的，因此系统会对APP产生影响，比方说让APP从前台退出，用户暂时去使用其他APP，这时APP会进入后台运行状态，至于是否挂起，还要看具体的实现情况，事实上APP的生命周期包含了以下几个状态
 
-![img](./app-life-cycle.png)
+![img](/img/in-post/app-lifecycle/app-life-cycle.png)
 
 ### 状态
 
