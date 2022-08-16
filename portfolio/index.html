@@ -218,10 +218,15 @@ layout: default
 				},{event_id:'C9V09CBC77UEMUC77870_TEST_EVENT_ID'})">Event API ViewContent(for test event)</button>
 				</br>
 				</br>
-				<button type="button" onclick="fbq('track', 'AddToCArt');
+				<button type="button" onclick="fbq('track', 'AddToCart');
+							       fbq('track', 'Add To Cart');
+							       fbq('track', 'AddToCat');
+							       fbq('track', 'AddTocart');
+							       fbq('track', 'AddCart');">[FB]Mismatch Event Type('AddToCart', 'Add To Cart', 'AddToCat', 'AddTocart')</button>
+				<button type="button" onclick="fbq('track', 'AddToCart');
 							       fbq('track', 'AddToWishlist');
 							       fbq('track', 'CompleteRegistration');
-							       fbq('track', 'ViewContent');">FB Trigger 1</button>
+							       fbq('track', 'ViewContent');">[FB]Multi Events on One Action</button>
 				<button type="button" onclick="fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
 							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
 							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
@@ -229,7 +234,7 @@ layout: default
 							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
 							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
 							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
-							       ">FB Trigger 2</button>
+							       ">[FB]Multi Purchases(>4)</button>
 			</div>
 		</div>
 	</body>
