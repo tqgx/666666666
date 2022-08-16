@@ -222,7 +222,14 @@ layout: default
 							       fbq('track', 'AddToWishlist');
 							       fbq('track', 'CompleteRegistration');
 							       fbq('track', 'ViewContent');">FB Trigger 1</button>
-				<button type="button" onclick="">FB Trigger 2</button>
+				<button type="button" onclick="fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
+							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
+							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
+							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
+							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
+							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
+							       fbq('track', 'Purchase', {value: 0.99, currency: 'USD'});
+							       ">FB Trigger 2</button>
 			</div>
 		</div>
 	</body>
