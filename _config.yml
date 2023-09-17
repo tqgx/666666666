@@ -75,9 +75,6 @@ sidebar-avatar: /img/119144485.jpg      # use absolute URL, seeing it's used in 
 
 
 
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
 
@@ -90,11 +87,18 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
-
-# Friends
-# friends: [
-#     #     title: "Su",
-#     #     href: "http://su.gallery/"
-#     # },{
-# ]
+# More Links
+friends:
+  [
+    { title: "Back Blog", href: "https://tqgx.github.io/" },
+    { title: "XGQT Blog", href: "https://xgqt.gitlab.io/" },
+    { title: "IVON Blog", href: "https://ivonblog.com/" },
+    { title: "Github", href: "https://github.com/tqgx" },
+    { title: "Piped", href: "https://piped.video/trending" },
+    { title: "invidious", href: "https://yewtu.be/" },
+    { title: "Bitdefender 30Days Trial", href: "https://central.bitdefender.com/devices?service=add_trial&code=34291885-79d4-4ba6-bf01-30b0d6bdd0a1" },
+  ]
