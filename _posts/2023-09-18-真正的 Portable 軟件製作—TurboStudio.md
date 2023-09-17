@@ -6,7 +6,7 @@ date:       2023-09-18
 author:     TQGX
 header-img: img/cat.jpg
 catalog:   true
-tags: 無聊 2023
+tags: 軟件 2023
 ---
 
 基於上篇... [關於真正的 Portable 軟件原理](https://tqgx.github.io/2023/09/17/%E9%97%9C%E6%96%BC%E7%9C%9F%E6%AD%A3%E7%9A%84-Portable-%E8%BB%9F%E4%BB%B6%E5%8E%9F%E7%90%86/)
