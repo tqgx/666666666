@@ -3,10 +3,13 @@ title: TQGX's Site
 SEOTitle: TQGX's Site
 header-img: img/qweqqweqew.png
 email: lilyjone1999@hotmail.com
-description: "Hello! I'm Lily Joneś, a.k.a. TQGX <br> OpenTools & Portabler"
+description: "Hello! I'm Lily Joneś, a.k.a. TQGX OpenTools & Portabler"
 keyword: "TQGX, XGQT"
 url: "https://tqgx.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Preview image
+preview-image: img/qweqqweqew.png
 
 # Publish posts or collection documents with a future date.
 future: true
