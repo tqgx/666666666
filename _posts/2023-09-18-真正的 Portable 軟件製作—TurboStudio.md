@@ -20,12 +20,12 @@ tags: 無聊 2023
 
 快照一，先讓我們把Capture Before的動畫跑完
 
-[!img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T1.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T1.png?raw=true)
 
 ## 參數設定：
 
 這個步驟主要是將所有資料夾、註冊表，放在一個資料夾內，若沒做這個步驟，你的Portable軟件就相當於沒做到Settings→ 
-[img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T4.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T4.png?raw=true)
 
 - 看到我輸入@APPDIR@\Data的地方，請跟著輸入
 - 將Project Type更改成 Standalone/ISV Application (exe)
@@ -50,7 +50,7 @@ __提醒：如果軟件要用網路，把上面的參數刪除即可__
 
 ## 虛擬機快照 （以上步驟做完，這可以加快製作速度）
 在下面圖片使用快照的是Vmware 15 版本，拍了快照之後，我們每次都從這個地方回滾，因為參數都設置好了，就會方便超多！！
-[img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T7.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T7.png?raw=true)
 
 
 ### 安裝軟件： 
@@ -67,21 +67,21 @@ __提醒：如果軟件要用網路，把上面的參數刪除即可__
 這個步驟是為了將資料夾和註冊表，不會跑到外面一定要做的事（如果你確保這些檔案都不會跑出來，可以全設隔離也沒關係）
 - 反正簡單說就是看到哪裡有資料夾，哪邊就設Write Copy、在下圖當中我設置都是常見的
 - 資料夾隔離：
-[img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T8.png?raw=true)
-[img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T9.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T8.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T9.png?raw=true)
 
 ### 隔離註冊表：
 - 註冊表全設即可 （原因很簡單，不要自己亂刪。到時候註冊表沒包在一個資料夾，會跑出去）
-[!img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T10.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T10.png?raw=true)
 
 ### 選擇軟件的開啟路徑（選擇.exe）
 - 這個地方是為了讓你選擇軟件的正確開啟，譬如我們選擇.lnk，這就是路徑檔案，選擇.exe才是正確的....
-[!img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T10.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T10.png?raw=true)
 
 
 # Build 製作完成！
-[img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T12.png?raw=true)
-[img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T13.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T12.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T13.png?raw=true)
 
 - 享受勝利的果實吧！
 - 你看，如此乾淨全部東西都在一個資料夾，我們可以用MasterSeeker做檢查喔！
