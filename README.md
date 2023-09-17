@@ -16,3 +16,6 @@ header-img: img/cat.jpg
 catalog:   true
 tags: 無聊 2023
 ---
+
+上傳圖片教學：
+![img](網址)
