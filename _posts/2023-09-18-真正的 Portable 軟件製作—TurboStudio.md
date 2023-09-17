@@ -37,10 +37,12 @@ tags: 無聊 2023
 - 到Network→DNS，
 - 看到Hostname or IP Address，輸入：*
 - 看到Redlirect 輸入：0.0.0.0
+- 
 ![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T5.png?raw=true)
 
 
 讓我們轉移到 IP Restrictions
+
 ![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T6.png?raw=true)
 
 - 在Route 輸入：*
