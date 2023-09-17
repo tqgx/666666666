@@ -4,6 +4,8 @@ https://tqgx.github.io/
 
 - 文章 https://github.com/tqgx/tqgx.github.io/new/master/_posts
 - 圖片 https://github.com/tqgx/tqgx.github.io/tree/master/img/TQGX
+- 編輯 https://github.com/tqgx/tqgx.github.io/edit/master/README.md
+
 - 上傳圖片： ![img](網址)
 - 上傳網址： [文字](網址)
 
