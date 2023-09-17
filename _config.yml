@@ -3,14 +3,22 @@ title: TQGX's Site
 SEOTitle: TQGX's Site
 header-img: img/cat.jpg
 email: lilyjone1999@hotmail.com
-description: "Hello! I'm Lily Joneś, a.k.a. TQGX OpenTools & Portabler"
+description: TQGX's Site
 keyword: "Blog, Web, java, Python"
-url: "https://tqgx.github.io/"              # your host, for absolute URL
+url: "https://tqgx.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
+# SNS settings
+RSS: false
+# weibo_username:     宁宁宁宁宁K_
+# zhihu_username:     嘿嘿你真是个人才
+github_username:    ningkaiqiang
+twitter_username:   ningkaiqiang
+#facebook_username:  ningkaiqiang
+#linkedin_username:  firstname-lastname-idxxxx
 
 
 
@@ -51,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: nkqnkq
 
 # Netease settings
 netease_comment: false
@@ -70,7 +78,7 @@ ga_domain: auto
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Hello! I'm Lily Joneś, a.k.a. TQGX OpenTools & Portabler <br>  ...."
+sidebar-about-description: "1 <br>"
 sidebar-avatar: /img/119144485.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -92,14 +100,9 @@ page-mathjax: false
 
 
 
-# More Links
-friends:
-  [
-    { title: "Back Blog", href: "https://tqgx.github.io/" },
-    { title: "XGQT Blog", href: "https://xgqt.gitlab.io/" },
-    { title: "IVON Blog", href: "https://ivonblog.com/" },
-    { title: "Github", href: "https://github.com/tqgx" },
-    { title: "Piped", href: "https://piped.video/trending" },
-    { title: "invidious", href: "https://yewtu.be/" },
-    { title: "Bitdefender 30Days Trial", href: "https://central.bitdefender.com/devices?service=add_trial&code=34291885-79d4-4ba6-bf01-30b0d6bdd0a1" },
-  ]
+# Friends
+# friends: [
+#     #     title: "Su",
+#     #     href: "http://su.gallery/"
+#     # },{
+# ]
