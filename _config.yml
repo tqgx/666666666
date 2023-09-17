@@ -1,11 +1,11 @@
 # Site settings
-title: ziheng dong
-SEOTitle: Donnie | ziheng dong
-header-img: img/lake.png
-email: donniexero@gmail.com
-description: "My blog"
-keyword: "zihengdong, northwestern"
-url: ""              # your host, for absolute URL
+title: TQGX's Site
+SEOTitle: TQGX's Site
+header-img: img/cat.jpg
+email: lilyjone1999@hotmail.com
+description: "Hello! I'm Lily Joneś, a.k.a. TQGX OpenTools & Portabler"
+keyword: "TQGX, XGQT"
+url: "https://tqgx.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,19 +13,27 @@ future: true
 
 # SNS settings
 RSS: false
-github_username:    imdonnie
-linkedin_username:  ziheng-dong-473424173
-nu_email: zhdong@u.northwestern.edu
+github_username:    
+linkedin_username:  
+nu_email: 
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
+#timezone: CN
 
 
 
@@ -43,7 +51,7 @@ plugins: [jekyll-paginate]
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
       line_numbers: false
@@ -54,7 +62,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: donniexero
+disqus_username: hux
 
 # Netease settings
 netease_comment: false
@@ -62,7 +70,7 @@ netease_comment: false
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # # Google Analytics
@@ -72,15 +80,15 @@ netease_comment: false
 
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Not because they are easy"
-sidebar-avatar: https://raw.githubusercontent.com/imdonnie/img/master/github_profile_picture.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "Hello! I'm Lily Joneś, a.k.a. TQGX <br> OpenTools & Portabler"
+sidebar-avatar: https://github.com/tqgx.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 
 
@@ -95,13 +103,14 @@ page-mathjax: false
 
 
 
-# Friends
-# friends: [
-#     {
-#     #     title: "Su",
-#     #     href: "http://su.gallery/"
-#     # },{
-        # title: "title",
-#         href: "http://mida.re/"
-#     }
-# ]
+# More Links
+friends:
+  [
+    { title: "Back Blog", href: "https://tqgx.github.io/" },
+    { title: "XGQT Blog", href: "https://xgqt.gitlab.io/" },
+    { title: "IVON Blog", href: "https://ivonblog.com/" },
+    { title: "Github", href: "https://github.com/tqgx" },
+    { title: "Piped", href: "https://piped.video/trending" },
+    { title: "invidious", href: "https://yewtu.be/" },
+    { title: "Bitdefender 30Days Trial", href: "https://central.bitdefender.com/devices?service=add_trial&code=34291885-79d4-4ba6-bf01-30b0d6bdd0a1" },
+  ]
