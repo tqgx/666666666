@@ -1,6 +1,7 @@
 - 部落格 https://tqgx.github.io/ 
 - 上傳 https://github.com/tqgx/tqgx.github.io/new/master/_posts
 - 圖片 https://github.com/tqgx/tqgx.github.io/tree/master/img/TQGX
+- 編輯 https://github.com/tqgx/tqgx.github.io/edit/master/README.md
 
 文章格式：
 
