@@ -56,12 +56,12 @@ __提醒：如果軟件要用網路，把上面的參數刪除即可__
 ### 安裝軟件： 
 我們安裝軟件吧
 
-[!img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T2.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T2.png?raw=true)
 
 - 安裝好之後，在這個步驟將軟件的所有參數設定好，或是激活器，許可證輸一輸，反正就是把所有設定做一做
 - 完成好之後，我們再到下個步驟Capture and Diff
 
-[img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T3.png?raw=true)
+![img](https://github.com/tqgx/tqgx.github.io/blob/master/img/TQGX/T3.png?raw=true)
 
 ### 隔離資料夾：
 這個步驟是為了將資料夾和註冊表，不會跑到外面一定要做的事（如果你確保這些檔案都不會跑出來，可以全設隔離也沒關係）
