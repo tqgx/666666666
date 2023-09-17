@@ -11,14 +11,6 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # Publish posts or collection documents with a future date.
 future: true
 
-# SNS settings
-RSS: false
-# weibo_username:     宁宁宁宁宁K_
-# zhihu_username:     嘿嘿你真是个人才
-github_username:    ningkaiqiang
-twitter_username:   ningkaiqiang
-#facebook_username:  ningkaiqiang
-#linkedin_username:  firstname-lastname-idxxxx
 
 
 
