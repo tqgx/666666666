@@ -4,9 +4,9 @@ SEOTitle: TQGX's Site
 header-img: img/cat.jpg
 email: lilyjone1999@hotmail.com
 description: "Hello! I'm Lily Joneś, a.k.a. TQGX OpenTools & Portabler"
-keyword: "TQGX, XGQT"
-url: "https://tqgx.github.io/"              # your host, for absolute URL
-baseurl: "https://tqgx.github.io/"                             # for example, '/blog' if your blog hosted on 'host/blog'
+keyword: "TQGX, 2023"
+url: "tqgx.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -16,38 +16,10 @@ future: true
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude:
-  [
-    "less",
-    "node_modules",
-    "Gruntfile.js",
-    "package.json",
-    "README.md",
-    "README.zh.md",
-  ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+#timezone: CN  
 
 
 
@@ -117,14 +89,13 @@ page-mathjax: false
 
 
 
-# More Links
-friends:
-  [
-    { title: "Back Blog", href: "https://tqgx.github.io/" },
-    { title: "XGQT Blog", href: "https://xgqt.gitlab.io/" },
-    { title: "IVON Blog", href: "https://ivonblog.com/" },
-    { title: "Github", href: "https://github.com/tqgx" },
-    { title: "Piped", href: "https://piped.video/trending" },
-    { title: "invidious", href: "https://yewtu.be/" },
-    { title: "Bitdefender 30Days Trial", href: "https://central.bitdefender.com/devices?service=add_trial&code=34291885-79d4-4ba6-bf01-30b0d6bdd0a1" },
-  ]
+# Friends
+# friends: [
+#     {
+#     #     title: "Su",
+#     #     href: "http://su.gallery/"
+#     # },{
+        # title: "title",
+#         href: "http://mida.re/"
+#     }
+# ]
