@@ -1,11 +1,10 @@
 # Site settings
 title: TQGX's Site
 SEOTitle: TQGX's Site
-header-img: img/cat.jpg
-preview_image: img/cat.jpg
+header-img: img/qweqqweqew.png
 email: lilyjone1999@hotmail.com
-description: "Hello! I'm Lily Joneś, a.k.a. TQGX OpenTools & Portabler"
-keyword: "TQGX, 2023, OpenTools, XGQT"
+description: "Hello! I'm Lily Joneś, a.k.a. TQGX <br> OpenTools & Portabler"
+keyword: "TQGX, XGQT"
 url: "https://tqgx.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -89,6 +88,5 @@ friends:
     { title: "Github", href: "https://github.com/tqgx" },
     { title: "Piped", href: "https://piped.video/trending" },
     { title: "invidious", href: "https://yewtu.be/" },
-    { title: "Rsload", href: "https://rsload.net },
     { title: "Bitdefender 30Days Trial", href: "https://central.bitdefender.com/devices?service=add_trial&code=34291885-79d4-4ba6-bf01-30b0d6bdd0a1" },
   ]
